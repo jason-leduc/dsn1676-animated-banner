@@ -20,3 +20,9 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+.bg-galaxy {
+    background: url(../images/bg-galaxy.jpg) no-repeat;
+    width: 90%;
+    height 100px;
+}
