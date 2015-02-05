@@ -22,7 +22,7 @@ html {
 }
 
 body {
-    background-color: #474747;
+    background: url(../images/bg-image.jpg);
 }
 
 #container {
