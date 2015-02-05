@@ -140,11 +140,11 @@ header p {
 
 #switches input {
   position: absolute;
-  left: 100px;
+  left: -9999px;
 }
 
 .slider-v1 {
-  position: relative;
+  position: absolute;
   display: block;
   width: 5.5em;
   height: 3em;
