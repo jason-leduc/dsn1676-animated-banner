@@ -140,7 +140,7 @@ header p {
 
 #switches input {
   position: absolute;
-  left: -9999px;
+  left: 100px;
 }
 
 .slider-v1 {
