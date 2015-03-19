@@ -154,7 +154,37 @@ h3 {
  
 }
 /*keyframe animations end*/
+
 /*photobanner end*/
+
+/*button*/
+
+body {
+  color: #fff;
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+
+.box {
+  background: #2db34a;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  transition-property: background, border-radius;
+  transition-duration: .2s, 1s;
+  transition-timing-function: linear, ease-in;
+  width: 95px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box:hover {
+  background: #ff7b29;
+  border-radius: 50%;
+}
+
+/*button end*/
 
 .center { 
   margin: 0 auto;
@@ -307,7 +337,7 @@ h3 {
 #slide1{
   background:url(../images/bg-image.jpg) 50% 0 no-repeat fixed;
   color: #fff;
-  height: 600px;
+  height: 800px;
   margin: 0;
   padding: 200px 0 260px 0;
   background-size: cover;
