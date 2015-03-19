@@ -186,6 +186,12 @@ body {
 
 /*button end*/
 
+/*tabs and panels*/
+
+
+
+/*tabs and panels end*/
+
 .center { 
   margin: 0 auto;
 }
@@ -279,7 +285,7 @@ body {
 #slide2{
   background-color: #fff;
   color: #333333;
-  height: 300px;
+  height: 600px;
   margin: 0 auto;
   overflow: hidden;
   padding: 200px 0;

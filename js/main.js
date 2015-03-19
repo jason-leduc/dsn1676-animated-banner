@@ -41,3 +41,4 @@ $(this).click(function() {
 });
 
 $('html, body').animate({scrollTop: targetOffset}, 1000);
+
