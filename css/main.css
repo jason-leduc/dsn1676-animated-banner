@@ -165,7 +165,7 @@ body {
 }
 
 .box {
-  background: #2db34a;
+  background: red;
   border-radius: 6px;
   cursor: pointer;
   height: 95px;
@@ -180,7 +180,27 @@ body {
 }
 
 .box:hover {
-  background: #ff7b29;
+  background: darkred;
+  border-radius: 50%;
+}
+
+.box2 {
+  background: red;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 95px;
+  line-height: 95px;
+  text-align: center;
+  transition-property: background, border-radius;
+  transition-duration: 4s, 4s;
+  transition-timing-function: linear, ease-in;
+  width: 95px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box2:hover {
+  background: darkred;
   border-radius: 50%;
 }
 
