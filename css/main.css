@@ -192,7 +192,7 @@ body {
   line-height: 95px;
   text-align: center;
   transition-property: background, border-radius;
-  transition-duration: 4s, 4s;
+  transition-duration: .2s, 1s;
   transition-timing-function: linear, ease-in;
   width: 95px;
   margin-left: auto;
