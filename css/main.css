@@ -358,16 +358,8 @@ p > code {
   color: #8AD;
 }
 
-.for.ie8-and-below {
-  color: #DA8;
-}
-
 .for.default-tab:after {
   content: 'For default tab';  
-}
-
-.for.ie8-and-below:after {
-  content: 'For IE8 and below';  
 }
 
 /* and just for fun... */
