@@ -286,20 +286,12 @@ html {
   padding: 1em;
 }
 
-a:link,a:visited,a:hover,a:focus,a:active {
-  color: #58C;
-}
-
 label {
   cursor: pointer;
 }
 
 .tabs {
   color: #222;
-}
-
-.tabs a:link,.tabs a:visited,.tabs a:hover,.tabs a:focus,.tabs a:active {
-  color: #36A;
 }
 
 body > h3 {
@@ -312,19 +304,7 @@ p {
   max-width: 50em;
 }
 
-code,pre {
-  font-family: 'Lucida Console', monospace;
-}
-
-pre {
-  background: #191919;
-  color: #8DA;
-  overflow-x: auto;
-  padding: 1em;
-}
-
 p > code {
-  background: #DED;
   margin: -2px;
   padding: 2px;
 }
@@ -381,6 +361,26 @@ p > code {
 }
 
 /*tabs and panels end*/
+
+/*svg animation*/
+
+.icon{
+  width: 32px;
+  height: 32px;
+  fill: #fff;
+  position: ;
+}
+
+.icon.is-check{
+  fill: #FE4365;
+}
+
+.icon.is-x10{
+  width: 320px;
+  height: 320px;
+}
+
+/*svg animation ends*/
 
 .center { 
   margin: 0 auto;
