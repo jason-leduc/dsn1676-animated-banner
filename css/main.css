@@ -342,7 +342,6 @@ p > code {
   content: 'For default tab';  
 }
 
-/* and just for fun... */
 @media only screen and (max-width: 50em) {
   .tabs .tab > label {
     background: #BBB;
@@ -368,7 +367,7 @@ p > code {
   width: 32px;
   height: 32px;
   fill: #fff;
-  position: ;
+  padding-bottom: 5em;
 }
 
 .icon.is-check{
@@ -451,20 +450,12 @@ p > code {
   opacity:1;  
 }
 
-.quotes {
- font-family: 'Goudy Bookletter 1911', serif;
-   font-weight: normal;
-   font-size: 30px;
-  text-align: left;
-  margin: 50px auto;
-}
-
 #slide1, #slide2{ 
   width: 100%;
 }
 
 #slide1{
-  background:url(../images/bg-image.jpg) 50% 0 no-repeat fixed;
+  background:url(../images/bg-galaxy.jpg) 50% 0 no-repeat fixed;
   color: #fff;
   height: 800px;
   margin: 0;
@@ -482,7 +473,7 @@ p > code {
 }
  
 #slide3{
-  background: url(../images/bg-image.jpg) 50% 0 no-repeat fixed;
+  background: url(../images/bg-galaxy.jpg) 50% 0 no-repeat fixed;
   color: #fff;
   height: 600px;
   padding: 170px 0 0 0;
