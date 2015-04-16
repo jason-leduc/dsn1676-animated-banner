@@ -180,7 +180,7 @@ body {
 }
 
 .box:hover {
-  background: darkred;
+  background: white;
   border-radius: 50%;
 }
 
@@ -200,7 +200,7 @@ body {
 }
 
 .box2:hover {
-  background: darkred;
+  background: white;
   border-radius: 50%;
 }
 
